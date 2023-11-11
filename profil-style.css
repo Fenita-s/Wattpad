@@ -129,3 +129,43 @@ input {
     justify-content: space-around;
     flex-direction: row;
 }
+
+.left {
+    height: 78px;
+    width: 500px;
+    background-color: oldlace;
+}
+
+.right {
+    height: 78px;
+    width: 400px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.coin {
+    height: 50px;
+    width:  150px;
+    background-color: salmon;
+    font-size: 20pt;
+    border-radius: 25px;
+    border: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.coin > h1 {
+    font-size: 20pt;
+}
+
+button {
+    border: 0px;
+    font-size: 20pt;
+    width: 30px;
+}

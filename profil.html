@@ -48,9 +48,35 @@
 
             </div>
             <div class="right">
-
+                <div class="coin">
+                    <span>🪙</span>
+                    <h1></h1>
+                    <button id="increase">+</button>
+                </div>
             </div>
         </div>
     </section>
 </body>
+<script>
+    let counterValue = 0;
+    
+    const increaseBtn = document.getElementById("increase");
+    const h1Text = document.querySelector("h1");
+
+    function setText (){
+        h1Text.innerHTML= counterValue;
+    }
+
+    increaseBtn.onclick = function(){
+        counterValue++;
+        localStorage.setItem("rememberCounter", counterValue);
+        setText();
+    }
+
+    if (!localStorage.getItem("rememberCounter"))
+    localStorage.setItem("rememberCounter", "0");
+
+    counterValue = localStorage.getItem("rememberCounter");
+    setText();
+</script>
 </html>
