@@ -68,7 +68,7 @@ input {
 .profile {
     height: 460px;
     width: 100vw;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,35 +124,27 @@ input {
 .column {
     height: 80px;
     width: 100vw;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    border-bottom: 2px solid rgb(164, 163, 163);
 }
 
 .left {
     height: 78px;
     width: 500px;
-    background-color: oldlace;
+    /* background-color: oldlace; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .right {
     height: 78px;
     width: 400px;
-    background-color: skyblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-.coin {
-    height: 50px;
-    width:  150px;
-    background-color: salmon;
-    font-size: 20pt;
-    border-radius: 25px;
-    border: 1px solid gainsboro;
+    /* background-color: skyblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,12 +152,115 @@ input {
     gap: 10px;
 }
 
-.coin > h1 {
+.coin {
+    height: 50px;
+    width:  150px;
+    /* background-color: salmon;s */
     font-size: 20pt;
+    border-radius: 25px;
+    border: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.coin > h1 {
+    font-size: 18pt;
+    font-weight: 500;
 }
 
 button {
     border: 0px;
     font-size: 20pt;
     width: 30px;
+}
+
+.settings{
+    height: 50px;
+    width: 150px;
+    /* background-color: violet; */
+    font-size: 15pt;
+    border-radius: 5px;
+    border: 2px gainsboro solid;
+    text-align: center;
+    line-height: 50px;
+    padding: 0px;
+}
+
+a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.about {
+    height: inherit;
+    width:  150px;
+    /* background-color: yellowgreen; */
+    line-height: 80px;
+    text-align: center;
+    border-bottom: 5px solid rgb(157, 199, 197);
+}
+
+.conversation {
+    height: inherit;
+    width:  150px;
+    /* background-color: yellowgreen; */
+    line-height: 80px;
+    text-align: center;
+}
+
+.following {
+    height: inherit;
+    width:  150px;
+    /* background-color: yellowgreen; */
+    line-height: 80px;
+    text-align: center;
+}
+
+.below {
+    width: 100vw;
+    height: 60vh;
+    background-color: darkblue;
+    padding: 20px 150px;
+}
+
+.kiri {
+    height: 250px;
+    width: 300px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.kanan {
+    height: 300px;
+    width: 650px;
+    background-color: yellow;
+    float: right;
+}
+
+.atas {
+    height: calc(100% * 3/5);
+    width: inherit;
+    background-color: aqua;
+}
+
+.bawah {
+    height: calc(100% * 2/5);
+    width: inherit;
+    background-color: beige;
+    padding: 5px;
+}
+
+.bawah > h4 {
+    font-weight: 300;
+}
+
+.emot {
+    height: 60px;
+    width: 99%;
+    background-color: cadetblue;
 }
