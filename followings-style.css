@@ -224,55 +224,147 @@ a {
 
 .below {
     width: 100vw;
-    height: 60vh;
-    background-color: darkblue;
+    min-height: 60vh;
+    /* background-color: darkblue; */
     padding: 20px 150px;
-}
-
-.kiri {
-    height: 250px;
-    width: 300px;
-    background-color: blueviolet;
-    float: left;
-}
-
-.kanan {
-    height: 300px;
-    width: 650px;
-    background-color: yellow;
-    float: right;
-}
-
-.atas {
-    height: calc(100% * 3/5);
-    width: inherit;
-    background-color: aqua;
-}
-
-.bawah {
-    height: calc(100% * 2/5);
-    width: inherit;
-    background-color: beige;
-    padding: 5px;
-}
-
-.bawah > h4 {
-    font-weight: 300;
-}
-
-.emot {
-    height: 60px;
-    width: 99%;
-    background-color: cadetblue;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 20px;
 }
 
-.icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 26px;
-    background-color: peru;
+.card {
+    height: 320px;
+    width: 250px;
+    background-color: antiquewhite;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+}
+
+.s1 {
+    height: 110px;
+    width: inherit;
+    background-color: aqua;
+    background-size: cover;
+}
+
+.s2{
+    height: 140px;
+    width: inherit;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow {
+    height: 45px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(103, 103, 103);
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    align-items: center;
+    border: 2px solid gainsboro;
+}
+
+.logoicon {
+    height: 20px;
+    width: 20px;
+    background-color: salmon;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTqRZT2JCV90KbKUVSmUG7Q6qgUZMShy8-rMm4glbaZaqYTJ17);
+}
+
+.s3 {
+    height: 70px;
+    width: inherit;
+    background-color: rgba(221, 254, 251, 0.721);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(63, 92, 92);
+}
+
+.b1 {
+    height: inherit;
+    width: 70px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.b2 {
+    height: inherit;
+    width: 70px;
+    /* background-color: paleturquoise; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.b3 {
+    height: inherit;
+    width: 70px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.s4 {
+    height: 100px;
+    width: 100px;
+    border-radius: 51px;
+    background-color: purple;
+    position: relative;
+    bottom: 290px;
+    left:  75px;
+    background-size: cover;
+}
+
+.head1 {
+    background-image: url(https://i.pinimg.com/236x/21/f6/7f/21f67f76b27a50b61c573376fd5d20da.jpg);
+}
+
+.prof1 {
+    background-image: url(https://i.pinimg.com/236x/85/ba/22/85ba228be35358f6ff15a0f579dc98ad.jpg);
+}
+
+.head2 {
+    background-image: url(https://i.pinimg.com/236x/de/ee/dc/deeedc0551ab5c92c7263d9941168c05.jpg);
+}
+
+.prof2{
+    background-image: url(https://i.pinimg.com/474x/2a/c8/ab/2ac8ab903a172410a4c4ff54a76939a5.jpg);
+}
+
+.head3 {
+    background-image: url(https://i.pinimg.com/236x/4f/e4/1a/4fe41ad9a9f807fcf03794fa358d5698.jpg);
+}
+
+.prof3{
+    background-image: url(https://i.pinimg.com/236x/4b/04/8c/4b048c5d3d53e476f3a6b121a70f224e.jpg);
+}
+
+.head4 {
+    background-image: url(https://i.pinimg.com/236x/ce/a7/7b/cea77beef97a78053f57dab23111dcbd.jpg);
+}
+
+.prof4{
+    background-image: url(https://i.pinimg.com/236x/85/ed/80/85ed80cd85f271a8caabc79214c53b06.jpg);
 }

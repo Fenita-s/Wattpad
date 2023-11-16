@@ -224,7 +224,7 @@ a {
 
 .below {
     width: 100vw;
-    height: 60vh;
+    min-height: 60vh;
     /* background-color: darkblue; */
     padding: 20px 150px;
 }
@@ -239,7 +239,7 @@ a {
 }
 
 .kanan {
-    height: 300px;
+    min-height: 350px;
     width: 650px;
     /* background-color: yellow; */
     float: right;
@@ -371,14 +371,15 @@ a {
     align-items: center;
     padding: 15px;
     position: relative;
-    top: 85px;
+    top: 100px;
 }
 
 .block {
-    height: 195px;
+    height: 240px;
     width: 120px;
     background-color: gainsboro;
     border-radius: 2px;
+    margin-top: 20px;
 }
 
 .readlist {
@@ -391,6 +392,6 @@ a {
     text-align: center;
     line-height: 50px;
     position: relative;
-    bottom: 50px;
+    bottom: 25px;
     left: 232px;
 }

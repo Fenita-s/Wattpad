@@ -88,18 +88,21 @@ input {
     border-radius: 25px;
     margin-top: 10px;
     background-size: cover;
-    background-image: url(https://i.pinimg.com/736x/4c/5d/91/4c5d91237cd6dbfca852780d01fd2729.jpg);
+    background-image: url(https://i.pinimg.com/236x/7c/2b/48/7c2b482b2f1929ea449350da67858e97.jpg);
     /* background-color: brown; */
 }
 
 .nav {
     height: 50px;
-    width: 100%;
+    width: 77%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     margin: 10px;
+    border-bottom: 1px solid gainsboro;
+    font-size: 25px;
+    margin-bottom: 10px;
     /* background-color: pink; */
 }
 
@@ -347,18 +350,21 @@ input {
 }
 
 .pic6 {
-    height: 350px;
-    width: 200px;
+    height: 400px;
+    width: 220px;
     margin-bottom: 50px;
     float: left;
     background-size: cover;
     background-image: url(https://i.pinimg.com/236x/8a/ce/25/8ace25fd04adb33832dcfd2d3a959549.jpg);
+    position: relative;
+    bottom: 60px;
+    left: 10px;
     /* background-color: cadetblue; */
 }
 
 .writtings {
     height: 300px;
-    width: 650px;
+    width: 630px;
     float: right;
     padding: 10px;
     margin-top: 40px;
@@ -369,7 +375,7 @@ input {
 
 .writtings > h1 {
     color: black;
-    font-size: 33pt;
+    font-size: 30pt;
     margin-top: 25px;
     margin-bottom: 15px;
 }
@@ -380,4 +386,67 @@ input {
     align-items: center;
     float: left;
     margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+}
+
+.top-five {
+    height: 80pt;
+    width: 80%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.top-five > h1 {
+    font-size: 40pt;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.pic7 {
+    height: 90%;
+    width: inherit;
+    margin-bottom: 10px;
+    /* background-color: orchid; */
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/236x/6d/c6/75/6dc67534b1385c7e6d1ea4b015c76a00.jpg);
+}
+
+.pic8 {
+    height: 90%;
+    width: inherit;
+    margin-bottom: 10px;
+    /* background-color: orchid; */
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/236x/f8/ac/db/f8acdb76408689fb11d265bde187ad1c.jpg);
+}
+
+.pic9 {
+    height: 90%;
+    width: inherit;
+    margin-bottom: 10px;
+    /* background-color: orchid; */
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/236x/c7/d7/76/c7d7769972de6e0af4e24db52217262a.jpg);
+}
+
+.pic10 {
+    height: 90%;
+    width: inherit;
+    margin-bottom: 10px;
+    /* background-color: orchid; */
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/236x/f1/3d/73/f13d73d1fad1cbe88ec573c6b25518e1.jpg);
+}
+
+.pic11 {
+    height: 90%;
+    width: inherit;
+    margin-bottom: 10px;
+    /* background-color: orchid; */
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/236x/21/58/21/215821e35f352c9b2afc016d174a404c.jpg);
 }
