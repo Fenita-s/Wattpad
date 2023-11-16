@@ -225,35 +225,75 @@ a {
 .below {
     width: 100vw;
     height: 60vh;
-    background-color: darkblue;
+    /* background-color: darkblue; */
     padding: 20px 150px;
 }
 
 .kiri {
     height: 250px;
     width: 300px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     float: left;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
 }
 
 .kanan {
     height: 300px;
     width: 650px;
-    background-color: yellow;
+    /* background-color: yellow; */
     float: right;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
 }
 
 .atas {
     height: calc(100% * 3/5);
     width: inherit;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+.atasatas{
+    width: inherit;
+    height: calc(100% * 4.5/6);
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 13pt;
+}
+
+.desc {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(157, 199, 197);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 12pt;
+    color: white;
+}
+
+.join {
+    height: calc(100% * 1.5/6);
+    width: inherit;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    line-height: 9px;
+    padding: 15px;
+    border-bottom: 1px solid gainsboro;
 }
 
 .bawah {
     height: calc(100% * 2/5);
     width: inherit;
-    background-color: beige;
-    padding: 5px;
+    /* background-color: beige; */
+    padding: 15px;
 }
 
 .bawah > h4 {
@@ -262,8 +302,8 @@ a {
 
 .emot {
     height: 60px;
-    width: 99%;
-    background-color: cadetblue;
+    width: 87%;
+    /* background-color: cadetblue; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -271,8 +311,86 @@ a {
 }
 
 .icon {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 26px;
-    background-color: peru;
+    /* background-color: peru; */
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url(https://i.pinimg.com/236x/05/76/fb/0576fb1d5e593f14ecf9675948a228f2.jpg);
+}
+
+.twitter {
+    background-image: url(https://i.pinimg.com/236x/ce/5e/f2/ce5ef28aab74bee0fb0e0231eb97c301.jpg);
+}
+
+.pintrest {
+    background-image: url(https://i.pinimg.com/236x/fd/1a/bb/fd1abbd7265ddc32bad0e3b166458130.jpg);
+}
+
+.tumblr {
+    background-image: url(https://i.pinimg.com/564x/60/79/c5/6079c5e80350606b9f227e8cad5d43e8.jpg);
+}
+
+.message {
+    background-image: url(https://i.pinimg.com/564x/9b/94/e5/9b94e561b665ad8be13aa5fcb1689424.jpg);
+}
+
+.bgatas {
+    height: 85px;
+    width: inherit;
+    /* background-color: salmon; */
+    padding: 15px;
+    position: absolute;
+}
+
+.bar1 {
+    height: 30px;
+    width: 200px;
+    background-color: gainsboro;
+    border-radius: 3px;
+}
+
+.bar2 {
+    height: 18px;
+    width: 140px;
+    background-color: gainsboro;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.bgbawah {
+    height: 215px;
+    width: inherit;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    top: 85px;
+}
+
+.block {
+    height: 195px;
+    width: 120px;
+    background-color: gainsboro;
+    border-radius: 2px;
+}
+
+.readlist {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(157, 199, 197);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 232px;
 }
