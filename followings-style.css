@@ -35,6 +35,8 @@ nav {
     align-items: center;
 }
 
+nav > h3 {cursor: pointer;}
+
 input {
     height: 40px;
     width: 550px;
@@ -50,6 +52,7 @@ input {
     border-radius: 22px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
     text-align: center;
     line-height: 40px;
     background-color: darkblue;
@@ -159,6 +162,7 @@ input {
     /* background-color: salmon;s */
     font-size: 20pt;
     border-radius: 25px;
+    cursor: pointer;
     border: 1px solid gainsboro;
     display: flex;
     justify-content: center;
@@ -176,6 +180,7 @@ button {
     border: 0px;
     font-size: 20pt;
     width: 30px;
+    cursor: pointer;
 }
 
 .settings{
@@ -270,6 +275,7 @@ a {
     justify-content: center;
     color: rgb(103, 103, 103);
     gap: 10px;
+    cursor: pointer;
     font-size: 18px;
     font-weight: 550;
     align-items: center;
@@ -343,6 +349,7 @@ a {
 
 .prof1 {
     background-image: url(https://i.pinimg.com/236x/85/ba/22/85ba228be35358f6ff15a0f579dc98ad.jpg);
+    cursor: pointer;
 }
 
 .head2 {
@@ -351,6 +358,7 @@ a {
 
 .prof2{
     background-image: url(https://i.pinimg.com/474x/2a/c8/ab/2ac8ab903a172410a4c4ff54a76939a5.jpg);
+    cursor: pointer;
 }
 
 .head3 {
@@ -359,6 +367,7 @@ a {
 
 .prof3{
     background-image: url(https://i.pinimg.com/236x/4b/04/8c/4b048c5d3d53e476f3a6b121a70f224e.jpg);
+    cursor: pointer;
 }
 
 .head4 {
@@ -367,4 +376,5 @@ a {
 
 .prof4{
     background-image: url(https://i.pinimg.com/236x/85/ed/80/85ed80cd85f271a8caabc79214c53b06.jpg);
+    cursor: pointer;
 }

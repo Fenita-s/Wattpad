@@ -35,6 +35,8 @@ nav {
     align-items: center;
 }
 
+nav > h3 {cursor: pointer;} 
+
 input {
     height: 40px;
     width: 550px;
@@ -50,6 +52,7 @@ input {
     border-radius: 22px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
     text-align: center;
     line-height: 40px;
     background-color: darkblue;
@@ -159,6 +162,7 @@ input {
     /* background-color: salmon;s */
     font-size: 20pt;
     border-radius: 25px;
+    cursor: pointer;
     border: 1px solid gainsboro;
     display: flex;
     justify-content: center;
@@ -176,6 +180,7 @@ button {
     border: 0px;
     font-size: 20pt;
     width: 30px;
+    cursor: pointer;
 }
 
 .settings{
@@ -275,6 +280,7 @@ a {
     font-weight: 700;
     font-size: 12pt;
     color: white;
+    cursor: pointer;
 }
 
 .join {
@@ -316,6 +322,7 @@ a {
     border-radius: 26px;
     /* background-color: peru; */
     background-size: cover;
+    cursor: pointer;
 }
 
 .facebook {
@@ -394,4 +401,5 @@ a {
     position: relative;
     bottom: 25px;
     left: 232px;
+    cursor: pointer;
 }

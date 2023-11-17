@@ -35,6 +35,8 @@ nav {
     align-items: center;
 }
 
+nav > h3 {cursor: pointer;}
+
 input.nav {
     height: 40px;
     width: 550px;
@@ -50,6 +52,7 @@ input.nav {
     border-radius: 22px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
     text-align: center;
     line-height: 40px;
     background-color: darkblue;
@@ -161,6 +164,7 @@ input.nav {
     border-radius: 25px;
     border: 1px solid gainsboro;
     display: flex;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -176,6 +180,7 @@ button {
     border: 0px;
     font-size: 20pt;
     width: 30px;
+    cursor: pointer;
 }
 
 .settings{
